@@ -1,0 +1,143 @@
+{
+    "components": {
+        "Contacts" : {
+            "source" : "AbuColte\\cxldyportfolio\\blob\\main\\src\\components\\Contacts.vue",
+            "props" : {
+                "email" : "zmb.danil0@gmail.com"
+            }
+        },
+        "GraphicsCard" : {
+            "source" : "AbuColte\\cxldyportfolio\\blob\\main\\src\\components\\GraphicsCard.vue",
+            "props" : {
+                "title" : [
+                    {
+                        "title" : "Artworks.",
+                        "src" : "\\cxldy-gallery\\metalheart0.jpg"
+                    },
+                    {
+                        "title" : "Contacts.",
+                        "src" : "\\cxldy-gallery\\boolgr.gif"
+                    }
+                ]
+            }
+        },
+        "MediaDisplay" : {
+            "source" : "AbuColte\\cxldyportfolio\\blob\\main\\src\\components\\MediaDisplay.vue",
+            "props" : {
+                "images" : [
+                    {
+                        "src" : [
+                            "\\cxldy-gallery\\guts.jpg",
+                            "\\cxldy-gallery\\guts1.jpg"
+                        ],
+                        "title" : "guts",
+                        "cIndex" : 0
+                    },
+                    {
+                        "src" : [
+                            "\\cxldy-gallery\\car1.jpg",
+                            "\\cxldy-gallery\\car0.jpg",
+                            "\\cxldy-gallery\\car2.jpg",
+                            "\\cxldy-gallery\\car3.jpg",
+                            "\\cxldy-gallery\\car4.jpg",
+                            "\\cxldy-gallery\\car5.jpg"
+                        ],
+                        "title" : "car",
+                        "cIndex" : 0
+                    },
+                    {
+                        "src" : [
+                            "\\cxldy-gallery\\hamzat0.jpg",
+                            "\\cxldy-gallery\\hamzat1.jpg"
+                        ],
+                        "title" : "hamzat",
+                        "cIndex" : 0
+                    },
+                    {
+                        "src" : [
+                            "\\cxldy-gallery\\horse0.jpg",
+                            "\\cxldy-gallery\\horse1.jpg",
+                            "\\cxldy-gallery\\horse2.jpg",
+                            "\\cxldy-gallery\\horse3.jpg"
+                        ],
+                        "title" : "horse",
+                        "cIndex" : 0
+                    },
+                    {
+                        "src" : [
+                            "\\cxldy-gallery\\logo0.jpg",
+                            "\\cxldy-gallery\\logo1.jpg",
+                            "\\cxldy-gallery\\logo2.mp4"
+                        ],
+                        "title" : "logo",
+                        "cIndex" : 0
+                    },
+                    {
+                        "src" : [
+                            "\\cxldy-gallery\\metalheart0.jpg",
+                            "\\cxldy-gallery\\metalheart1.jpg",
+                            "\\cxldy-gallery\\metalheart2.jpg",
+                            "\\cxldy-gallery\\metalheart3.jpg",
+                            "\\cxldy-gallery\\metalheart4.jpg",
+                            "\\cxldy-gallery\\metalheart5.jpg",
+                            "\\cxldy-gallery\\metalheart6.jpg",
+                            "\\cxldy-gallery\\metalheart7.jpg"
+                        ],
+                        "title" : "metalheart",
+                        "cIndex" : 0
+                    },
+                    {
+                        "src" : [
+                            "\\cxldy-gallery\\planet0.jpg",
+                            "\\cxldy-gallery\\planet1.jpg",
+                            "\\cxldy-gallery\\planet2.jpg",
+                            "\\cxldy-gallery\\planet3.jpg",
+                            "\\cxldy-gallery\\planet4.mp4"
+                        ],
+                        "title" : "planet",
+                        "cIndex" : 0
+                    },
+                    {
+                        "src" : [
+                            "\\cxldy-gallery\\ps10.mp4",
+                            "\\cxldy-gallery\\ps11.jpg"
+                        ],
+                        "title" : "ps1",
+                        "cIndex" : 0
+                    },
+                    {
+                        "src" : [
+                            "\\cxldy-gallery\\skull0.mp4",
+                            "\\cxldy-gallery\\skull1.mp4"
+                        ],
+                        "title" : "Skull",
+                        "cIndex" : 0
+                    },
+                    {
+                        "src" : [
+                            "\\cxldy-gallery\\other0.mp4",
+                            "\\cxldy-gallery\\other1.jpg",
+                            "\\cxldy-gallery\\other2.png",
+                            "\\cxldy-gallery\\other3.jpg"
+                        ],
+                        "title" : "Other",
+                        "cIndex" : 0
+                    }
+                ]
+            }
+        },
+        "home" : {
+            "source" : "AbuColte\\cxldyportfolio\\blob\\main\\src\\components\\home.vue",
+            "props" : {
+            }
+        },
+        "navbar" : {
+            "source" : "AbuColte\\cxldyportfolio\\blob\\main\\src\\components\\navbar.vue",
+            "props" : {
+                "titles" : [
+                    "Home", "Artworks", "Contacts"
+                ]
+            }
+        }
+    }
+}
